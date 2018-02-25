@@ -1,0 +1,23 @@
+{
+  "name": "dipper",
+  "version": "1.0.0",
+  "description": "Dependency inversion library",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine"
+  },
+  "keywords": [
+    "Dependency",
+    "Injection",
+    "Container"
+  ],
+  "author": "Jochen Grün",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jasmine": "^2.8.6",
+    "jasmine": "^3.0.0",
+    "nodemon": "^1.15.1",
+    "typescript": "^2.7.2"
+  }
+}
