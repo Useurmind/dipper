@@ -4,18 +4,12 @@ import { IProvideResolve } from "./IProvideResolve";
 /** 
  * A class that provides a resolver which always delivers the same instance.
 */
-export class Singleton<T> implements IProvideResolve<T> {
-    private instance?: T;
-
+export class Transient<T> implements IProvideResolve<T> {
     constructor(private create: () => T) {
     }
 
     public resolve(): T {
-        if (!this.instance) {
-            this.instance = this.create();
-        }
-
-        return this.instance;
+        return this.create();
     }
 
     public toResolver(): IResolve<T> {
@@ -23,6 +17,6 @@ export class Singleton<T> implements IProvideResolve<T> {
     }
 
     public reset(): void {
-        this.instance = undefined;
+        
     }
 }
