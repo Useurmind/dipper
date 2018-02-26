@@ -18,7 +18,7 @@ describe("When creating a singleton from an instance", () => {
 
     var builder = new dipper.ContainerBuilder();
 
-    var container = builder.add<IMyContainer>(c => ({
+    var container = builder.addIndependent<IMyContainer>(c => ({
         myStore1: c.single<IMyStore1>(() => myStore1)
     })).create();
 
@@ -38,7 +38,7 @@ describe("When creating a singleton from an instance", () => {
 describe("When creating a singleton from a function", () => {
     var builder = new dipper.ContainerBuilder();
 
-    var container = builder.add<IMyContainer>(c => ({
+    var container = builder.addIndependent<IMyContainer>(c => ({
         myStore1: c.single<IMyStore1>(() => ({}))
     })).create();
 
@@ -58,7 +58,7 @@ describe("When creating a singleton from a function", () => {
 describe("When creating a singleton from a function with singleton dependency", () => {
     var builder = new dipper.ContainerBuilder();
 
-    var container = builder.add<IMyContainer>(c => ({
+    var container = builder.addIndependent<IMyContainer>(c => ({
         myStore1: c.single<IMyStore1>(() => ({
             store2: c.myStore2()
         })),
@@ -86,7 +86,7 @@ describe("When creating a singleton from a function with singleton dependency", 
 describe("When creating a transient from a function", () => {
     var builder = new dipper.ContainerBuilder();
 
-    var container = builder.add<IMyContainer>(c => ({
+    var container = builder.addIndependent<IMyContainer>(c => ({
         myStore1: c.transient<IMyStore1>(() => ({}))
     })).create();
 
@@ -106,7 +106,7 @@ describe("When creating a transient from a function", () => {
 describe("When creating a transient from a function with transient dependencies", () => {
     var builder = new dipper.ContainerBuilder();
 
-    var container = builder.add<IMyContainer>(c => ({
+    var container = builder.addIndependent<IMyContainer>(c => ({
         myStore1: c.transient<IMyStore1>(() => ({
             store2: c.myStore2()
         })),
@@ -133,7 +133,7 @@ describe("When creating a transient from a function with transient dependencies"
 describe("When creating a transient from a function with singleton dependencies", () => {
     var builder = new dipper.ContainerBuilder();
 
-    var container = builder.add<IMyContainer>(c => ({
+    var container = builder.addIndependent<IMyContainer>(c => ({
         myStore1: c.transient<IMyStore1>(() => ({
             store2: c.myStore2()
         })),

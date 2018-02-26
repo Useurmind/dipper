@@ -7,7 +7,7 @@ interface IMyContainer {
     store: IMyStore1;
 }
 
-describe("When resetting a container", () => {
+describe("When using a container factory", () => {
         var builder = new dipper.ContainerBuilder();
 
         let container = builder.addIndependent<IMyContainer>(c => ({

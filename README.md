@@ -3,6 +3,10 @@ DipperTS - A typescript dependency inversion framework
 
 Apply the dependency inversion principle (DIP) to your code with DipperTS.
 
+## Installation
+
+TODO after npm package is available
+
 ## Basic example
 
 First define two classes that depend on each other.

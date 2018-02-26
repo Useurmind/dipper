@@ -2,6 +2,7 @@ import { IContainerCreationContext } from "./IContainerCreationContext";
 import { ContainerBase } from "./ContainerBase";
 import { ResolvingContainer } from "./ResolvingContainer";
 import { IContainer } from "./IContainer";
+import { IIndependentContainerSpecification, IDependentContainerSpecification } from "./ContainerSpecification";
 
 /** 
  * This class is used to create a container.
@@ -12,7 +13,7 @@ export class ContainerBuilder {
      * @param defineContainer A function that defines the registrations in this specific container interface using the context handed to it.
      * @returns Class to continue building the container.
      */
-    public add<TContainer>(defineContainer: (context: IContainerCreationContext & ResolvingContainer<TContainer>) => ResolvingContainer<TContainer>): ContainerBuilder2<IContainer & ResolvingContainer<TContainer>> {
+    public addIndependent<TContainer>(defineContainer: IIndependentContainerSpecification<TContainer>): ContainerBuilder2<IContainer & ResolvingContainer<TContainer>> {
         let container = new ContainerBase();
 
         let containerDefinitions = defineContainer(<any>container);
@@ -36,7 +37,20 @@ export class ContainerBuilder2<TCurrentContainer> {
      * @param defineContainer A function that defines the registrations in this specific container interface using the context handed to it.
      * @returns Class to continue building the container.
      */
-    public add<TContainer>(defineContainer: (context: IContainerCreationContext & TCurrentContainer & ResolvingContainer<TContainer>) => ResolvingContainer<TContainer>): ContainerBuilder2<TCurrentContainer & ResolvingContainer<TContainer>> {
+    public addIndependent<TContainer>(defineContainer: IIndependentContainerSpecification<TContainer>): ContainerBuilder2<TCurrentContainer & ResolvingContainer<TContainer>> {
+        let containerDefinitions = defineContainer(<any>this.currentContainer);
+
+        let extendedContainer = Object.assign(this.currentContainer, containerDefinitions);
+
+        return new ContainerBuilder2<TCurrentContainer & ResolvingContainer<TContainer>>(extendedContainer);
+    }
+
+    /**
+     * This method is used to add the given interface to a container.
+     * @param defineContainer A function that defines the registrations in this specific container interface using the context handed to it.
+     * @returns Class to continue building the container.
+     */
+    public addDependent<TContainer>(defineContainer: IDependentContainerSpecification<TCurrentContainer, TContainer>): ContainerBuilder2<TCurrentContainer & ResolvingContainer<TContainer>> {
         let containerDefinitions = defineContainer(<any>this.currentContainer);
 
         let extendedContainer = Object.assign(this.currentContainer, containerDefinitions);

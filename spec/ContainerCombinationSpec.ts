@@ -20,10 +20,10 @@ interface IMyContainer {
 describe("When combining two containers", () => {
         var builder = new ContainerBuilder();
 
-        let container = builder.add<ILoggerContainer>(c => ({
+        let container = builder.addIndependent<ILoggerContainer>(c => ({
                 logger: c.single(() => ({}))
             }))
-        .add<IMyContainer>(c => ({
+        .addDependent<IMyContainer>(c => ({
                 store: c.single<IMyStore1>(() => ({ logger: c.logger() }))
             }))
         .create();
