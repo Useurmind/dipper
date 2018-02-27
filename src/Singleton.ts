@@ -1,5 +1,6 @@
 import { IResolve } from "./IResolve";
 import { IProvideResolve } from "./IProvideResolve";
+import { isDisposable } from "./IDisposable";
 
 /** 
  * A class that provides a resolver which always delivers the same instance.
@@ -24,5 +25,11 @@ export class Singleton<T> implements IProvideResolve<T> {
 
     public reset(): void {
         this.instance = undefined;
+    }
+    
+    public dispose(): void {
+        if(this.instance && isDisposable(this.instance)){
+            this.instance.dispose();
+        }
     }
 }

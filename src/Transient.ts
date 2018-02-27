@@ -19,4 +19,7 @@ export class Transient<T> implements IProvideResolve<T> {
     public reset(): void {
         
     }
+    
+    public dispose(): void {
+    }
 }

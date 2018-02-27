@@ -1,16 +1,18 @@
 import { IContainerCreationContext } from "./IContainerCreationContext";
 import { Singleton, Transient, IProvideResolve } from ".";
-import { IContainer } from "./IContainer";
+import { IContainer, IScopeProvider } from "./IContainer";
 import { IReset } from "./IReset";
+import { IDisposable } from "./IDisposable";
+import { IContainerFactory } from "./ContainerFactory";
 
 /** 
  * This is the base class for a container.
  * It contains functions to define different resolution strategies.
  */
-export class ContainerBase implements IContainerCreationContext, IContainer {
-    private resolveProviders: IReset[];
+export class ContainerBase<TContainer extends IContainer> implements IContainerCreationContext, IContainer {
+    private resolveProviders: (IReset & IDisposable)[];
 
-    constructor(){
+    constructor(private containerFactory: IContainerFactory<TContainer>){
         this.resolveProviders = [];
     }
 
@@ -33,6 +35,16 @@ export class ContainerBase implements IContainerCreationContext, IContainer {
     public reset(): void {
         this.resolveProviders.forEach(provideResolve => {
             provideResolve.reset();
+        });
+    }
+
+    public startLifetimeScope(tag?: string): IScopeProvider<TContainer> & TContainer {
+        return this.containerFactory.create();
+    }
+
+    public dispose(): void {
+        this.resolveProviders.forEach(resolveProvider => {
+            resolveProvider.dispose();
         });
     }
 }

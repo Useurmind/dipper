@@ -1,4 +1,18 @@
 import { IContainerCreationContext, ResolvingContainer } from ".";
+import { IContainer } from "./IContainer";
+
+/**
+ * This interface is very loose and used inside the { @see ContainerSpecContainerFactory } 
+ * for flexibly creating containers
+ */
+export interface IContainerSpecification {
+    /**
+     * @param context This context provides the functions to setup a container
+     * with component registrations.
+     * @returns An object that fullfills the container interface and has all registrations added.
+     */
+    (context: IContainerCreationContext): IContainer;
+}
 
 /**
  * This interface provides a signature for handlers that specify the setup
