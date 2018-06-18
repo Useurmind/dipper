@@ -5,7 +5,9 @@ Apply the dependency inversion principle (DIP) to your code with DipperTS.
 
 ## Installation
 
-TODO after npm package is available
+```
+npm i dipperts --save
+```
 
 ## Basic example
 

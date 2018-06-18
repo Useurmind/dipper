@@ -1,5 +1,6 @@
 import * as dipper from "../src";
-import { ContainerBuilder } from "../src";
+import { ContainerBuilder, ResolvingContainer } from "../src";
+import { IScopeProvider, IContainer } from "../src/IContainer";
 
 interface ILogger {
 
@@ -17,10 +18,14 @@ interface IMyContainer {
     store: IMyStore1;
 }
 
+type MyContainerType =  ResolvingContainer<IMyContainer> &
+                        ResolvingContainer<ILoggerContainer> &
+                        IScopeProvider<IContainer & ResolvingContainer<ILoggerContainer>>;
+
 describe("When combining two containers", () => {
         var builder = new ContainerBuilder();
 
-        let container = builder.addIndependent<ILoggerContainer>(c => ({
+        let container: MyContainerType = builder.addIndependent<ILoggerContainer>(c => ({
                 logger: c.single(() => ({}))
             }))
         .addDependent<IMyContainer>(c => ({

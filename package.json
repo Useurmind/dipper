@@ -1,16 +1,24 @@
 {
-  "name": "dipper",
-  "version": "1.0.0",
-  "description": "Dependency inversion library",
-  "main": "index.js",
+  "name": "dipperts",
+  "version": "0.1.0",
+  "description": "Dependency injection library for typescript.",
+  "homepage": "https://github.com/Useurmind/dipper",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Useurmind/dipper.git"
+  },
+  "main": "dist/src/index.js",
+  "type": "dist/src/index.d.ts",
   "scripts": {
-    "test": "./node_modules/.bin/jasmine",
+    "build": "./node_modules/.bin/tsc --outDir ./dist",
+    "test": "./node_modules/.bin/karma start",
     "compile": "./node_modules/.bin/tsc"
   },
   "keywords": [
     "Dependency",
     "Injection",
-    "Container"
+    "Container",
+    "TypeScript"
   ],
   "author": "Jochen Grün",
   "license": "MIT",
