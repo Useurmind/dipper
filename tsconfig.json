@@ -1,8 +1,18 @@
 {
     "compilerOptions": {
-        "target": "es6",
-        "strict": true,
-        "module": "commonjs",
-        "outDir": "./dist"
-    }
+        "module": "amd",
+        "moduleResolution": "node",
+        "watch": false,  // for development specify -w on command line
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "sourceMap": true,
+        "target": "es5",
+        "importHelpers": false,
+        "lib": [ "dom", "es6", "scripthost" ],
+        "jsx": "react"
+    },
+    "exclude": [
+        "node_modules"
+    ]
 }

@@ -1,8 +1,9 @@
-import { IResolve } from "./IResolve";
+import { IResolve, ResolverType } from "./IResolve";
 import { IProvideResolve } from "./IProvideResolve";
 
 /** 
- * A class that provides a resolver which always delivers the same instance.
+ * A class that provides a resolver which always delivers a new instance.
+ * Does not track disposables.
 */
 export class Transient<T> implements IProvideResolve<T> {
     constructor(private create: () => T) {
@@ -13,7 +14,10 @@ export class Transient<T> implements IProvideResolve<T> {
     }
 
     public toResolver(): IResolve<T> {
-        return () => this.resolve();
+        return Object.assign(() => this.resolve(), {
+            toOrigin: () => this,
+            resolverType: ResolverType.Transient
+        });
     }
 
     public reset(): void {

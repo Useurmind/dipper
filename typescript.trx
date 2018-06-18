@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ea9a106d-83d4-f6e2-44da-d58edf160f2b" name="Jochen@Jochen-PC 2018-06-18T19:59:01" runUser="Jochen" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Karma Test Run" id="f2fa8fc8-ac44-8bda-3ee4-c2ca2eeeaff3"/>
+  <Times creation="2018-06-18T19:59:01" queuing="2018-06-18T19:59:01" start="2018-06-18T19:59:01" finish="2018-06-18T19:59:02"/>
+  <ResultSummary outcome="Passed">
+    <Counters total="32" executed="32" passed="32" error="0" failed="0"/>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Chrome 67.0.3396 (Windows 10 0.0.0)_services before reset are equal" id="728a62da-a140-4526-5629-0dbd428cfd85">
+      <Execution id="a47ae424-d453-9f2a-c76e-67e5a555f7ca"/>
+      <TestMethod codeBase="When using a container factory.Chrome 67.0.3396 (Windows 10 0.0.0)_services before reset are equal" name="Chrome 67.0.3396 (Windows 10 0.0.0)_services before reset are equal" className="When using a container factory"/>
+    </UnitTest>
+    <UnitTest name="Chrome 67.0.3396 (Windows 10 0.0.0)_services after reset are equal" id="202c8397-9bb1-8f58-77f1-431cb12e8aff">
+      <Execution id="e7660a53-c689-f490-5474-4b9d861b3dd3"/>
+      <TestMethod codeBase="When using a container factory.Chrome 67.0.3396 (Windows 10 0.0.0)_services after reset are equal" name="Chrome 67.0.3396 (Windows 10 0.0.0)_services after reset are equal" className="When using a container factory"/>
+    </UnitTest>
+    <UnitTest name="Chrome 67.0.3396 (Windows 10 0.0.0)_services before reset are not the same as after reset" id="14814c2f-06bb-876c-b4e9-6d80620816ba">
+      <Execution id="9ace94df-4cef-3874-1a93-d5c7d6b46d41"/>
+      <TestMethod codeBase="When using a container factory.Chrome 67.0.3396 (Windows 10 0.0.0)_services before reset are not the same as after reset" name="Chrome 67.0.3396 (Windows 10 0.0.0)_services before reset are not the same as after reset" className="When using a container factory"/>
+    </UnitTest>
+    <UnitTest name="Chrome 67.0.3396 (Windows 10 0.0.0)_all services are resolved" id="bdd66cd4-6546-aff3-a589-a4897a937d84">
+      <Execution id="153e06ec-3c04-d8ae-e4b0-78d0eb34a143"/>
+      <TestMethod codeBase="When using a container factory.Chrome 67.0.3396 (Windows 10 0.0.0)_all services are resolved" name="Chrome 67.0.3396 (Windows 10 0.0.0)_all services are resolved" className="When using a container factory"/>
+    </UnitTest>
+    <UnitTest name="Chrome 67.0.3396 (Windows 10 0.0.0)_it should be defined" id="c35e6cd4-6f94-5905-f5e4-1ae499d2e039">
+      <Execution id="6ad93215-048d-d41d-4355-ebd3d01c5499"/>
+      <TestMethod codeBase="When creating a singleton from a function.Chrome 67.0.3396 (Windows 10 0.0.0)_it should be defined" name="Chrome 67.0.3396 (Windows 10 0.0.0)_it should be defined" className="When creating a singleton from a function"/>
+    </UnitTest>
+    <UnitTest name="Chrome 67.0.3396 (Windows 10 0.0.0)_second created instance should be same as first" id="c072355d-0d2c-8d06-fa12-15c532608f07">
+      <Execution id="9289115e-de6e-e6f0-20b9-982220767541"/>
+      <TestMethod codeBase="When creating a singleton from a function.Chrome 67.0.3396 (Windows 10 0.0.0)_second created instance should be same as first" name="Chrome 67.0.3396 (Windows 10 0.0.0)_second created instance should be same as first" className="When creating a singleton from a function"/>
+    </UnitTest>
+    <UnitTest name="Chrome 67.0.3396 (Windows 10 0.0.0)_all services are available on finished container" id="23ff4d5e-82de-ccf1-053c-292105f4604a">
+      <Execution id="a6588ee0-8958-bfcd-9699-eb27cb5c5d6d"/>
+      <TestMethod codeBase="When combining two containers.Chrome 67.0.3396 (Windows 10 0.0.0)_all services are available on finished container" name="Chrome 67.0.3396 (Windows 10 0.0.0)_all services are available on finished container" className="When combining two containers"/>
+    </UnitTest>
+    <UnitTest name="Chrome 67.0.3396 (Windows 10 0.0.0)_dependencies are resolved accross container borders" id="200ed381-81bc-7f5a-69e8-19a43d92268b">
+      <Execution id="cb26faac-1366-67b4-fcc0-138e64209fd9"/>
+      <TestMethod codeBase="When combining two containers.Chrome 67.0.3396 (Windows 10 0.0.0)_dependencies are resolved accross container borders" name="Chrome 67.0.3396 (Windows 10 0.0.0)_dependencies are resolved accross container borders" className="When combining two containers"/>
+    </UnitTest>
+    <UnitTest name="Chrome 67.0.3396 (Windows 10 0.0.0)_single instances are the same" id="e380d47e-191f-889d-46bb-f2b156c60917">
+      <Execution id="7b4bdef5-0461-39fd-1134-9d8c8fbc7aba"/>
+      <TestMethod codeBase="When using resolve on a container.Chrome 67.0.3396 (Windows 10 0.0.0)_single instances are the same" name="Chrome 67.0.3396 (Windows 10 0.0.0)_single instances are the same" className="When using resolve on a container"/>
+    </UnitTest>
+    <UnitTest name="Chrome 67.0.3396 (Windows 10 0.0.0)_all services are resolved" id="c6c12acc-1261-0749-0c6b-0d57d2485f2d">
+      <Execution id="8fae621e-9958-0db8-f197-3ac70866ba23"/>
+      <TestMethod codeBase="When using resolve on a container.Chrome 67.0.3396 (Windows 10 0.0.0)_all services are resolved" name="Chrome 67.0.3396 (Windows 10 0.0.0)_all services are resolved" className="When using resolve on a container"/>
+    </UnitTest>
+    <UnitTest name="Chrome 67.0.3396 (Windows 10 0.0.0)_it should be defined" id="7ef1db78-415e-1435-d574-23aa944dee4c">
+      <Execution id="11cd0b8a-2b2f-a87b-042d-59762d2e78e8"/>
+      <TestMethod codeBase="When creating a transient from a function with singleton dependencies.Chrome 67.0.3396 (Windows 10 0.0.0)_it should be defined" name="Chrome 67.0.3396 (Windows 10 0.0.0)_it should be defined" className="When creating a transient from a function with singleton dependencies"/>
+    </UnitTest>
+    <UnitTest name="Chrome 67.0.3396 (Windows 10 0.0.0)_the second resolution dependency should be the same as the first dependency" id="1fe56101-1686-4429-05c5-3fa5221beda8">
+      <Execution id="88718b19-715e-537f-30e9-7f6285b337f8"/>
+      <TestMethod codeBase="When creating a transient from a function with singleton dependencies.Chrome 67.0.3396 (Windows 10 0.0.0)_the second resolution dependency should be the same as the first dependency" name="Chrome 67.0.3396 (Windows 10 0.0.0)_the second resolution dependency should be the same as the first dependency" className="When creating a transient from a function with singleton dependencies"/>
+    </UnitTest>
+    <UnitTest name="Chrome 67.0.3396 (Windows 10 0.0.0)_the dependency should be defined" id="ef4621b9-3f42-df36-2bf3-edf2b2d471b8">
+      <Execution id="bfa542e4-9803-dbe0-aaed-0b631e224ca0"/>
+      <TestMethod codeBase="When creating a transient from a function with singleton dependencies.Chrome 67.0.3396 (Windows 10 0.0.0)_the dependency should be defined" name="Chrome 67.0.3396 (Windows 10 0.0.0)_the dependency should be defined" className="When creating a transient from a function with singleton dependencies"/>
+    </UnitTest>
+    <UnitTest name="Chrome 67.0.3396 (Windows 10 0.0.0)_services before reset are not the same as after reset" id="418c3636-f200-c484-8595-bc848e5cbb99">
+      <Execution id="5e129191-1902-1572-b0e6-0493bb785c6c"/>
+      <TestMethod codeBase="When resetting a container.Chrome 67.0.3396 (Windows 10 0.0.0)_services before reset are not the same as after reset" name="Chrome 67.0.3396 (Windows 10 0.0.0)_services before reset are not the same as after reset" className="When resetting a container"/>
+    </UnitTest>
+    <UnitTest name="Chrome 67.0.3396 (Windows 10 0.0.0)_all services are resolved" id="0926a897-064c-ff4e-0dff-f3d10b819cb2">
+      <Execution id="9980359e-ac71-ce3e-0415-c69d402c759a"/>
+      <TestMethod codeBase="When resetting a container.Chrome 67.0.3396 (Windows 10 0.0.0)_all services are resolved" name="Chrome 67.0.3396 (Windows 10 0.0.0)_all services are resolved" className="When resetting a container"/>
+    </UnitTest>
+    <UnitTest name="Chrome 67.0.3396 (Windows 10 0.0.0)_services before reset are equal" id="ab064556-27ab-7a91-dfd4-cb5cd867d699">
+      <Execution id="bb0e2672-eebc-d1fe-1ad0-ddf2a8afdd27"/>
+      <TestMethod codeBase="When resetting a container.Chrome 67.0.3396 (Windows 10 0.0.0)_services before reset are equal" name="Chrome 67.0.3396 (Windows 10 0.0.0)_services before reset are equal" className="When resetting a container"/>
+    </UnitTest>
+    <UnitTest name="Chrome 67.0.3396 (Windows 10 0.0.0)_services after reset are equal" id="a890f3e1-f06d-c094-bea2-b1b1f34fda78">
+      <Execution id="81e29a92-ab0c-601a-702f-1de12bcb1ae0"/>
+      <TestMethod codeBase="When resetting a container.Chrome 67.0.3396 (Windows 10 0.0.0)_services after reset are equal" name="Chrome 67.0.3396 (Windows 10 0.0.0)_services after reset are equal" className="When resetting a container"/>
+    </UnitTest>
+    <UnitTest name="Chrome 67.0.3396 (Windows 10 0.0.0)_it should be defined" id="667bcc82-59e9-c221-208f-40fa013c5228">
+      <Execution id="d4f5484a-65bf-aa08-9bfa-248df2ecdf4a"/>
+      <TestMethod codeBase="When creating a transient from a function.Chrome 67.0.3396 (Windows 10 0.0.0)_it should be defined" name="Chrome 67.0.3396 (Windows 10 0.0.0)_it should be defined" className="When creating a transient from a function"/>
+    </UnitTest>
+    <UnitTest name="Chrome 67.0.3396 (Windows 10 0.0.0)_the second resolution should be different from the first" id="362a2c41-45ca-fc6f-a540-f79c3c1b72c7">
+      <Execution id="0ab2b593-2432-c13b-b7f9-7d739e79d3b8"/>
+      <TestMethod codeBase="When creating a transient from a function.Chrome 67.0.3396 (Windows 10 0.0.0)_the second resolution should be different from the first" name="Chrome 67.0.3396 (Windows 10 0.0.0)_the second resolution should be different from the first" className="When creating a transient from a function"/>
+    </UnitTest>
+    <UnitTest name="Chrome 67.0.3396 (Windows 10 0.0.0)_the second resolution dependency should be different from the first" id="c2a3b46f-160f-4d6b-7070-984cfd75a4ea">
+      <Execution id="a0f876bd-fe4a-eb1a-7de3-33dcb815c755"/>
+      <TestMethod codeBase="When creating a transient from a function with transient dependencies.Chrome 67.0.3396 (Windows 10 0.0.0)_the second resolution dependency should be different from the first" name="Chrome 67.0.3396 (Windows 10 0.0.0)_the second resolution dependency should be different from the first" className="When creating a transient from a function with transient dependencies"/>
+    </UnitTest>
+    <UnitTest name="Chrome 67.0.3396 (Windows 10 0.0.0)_it should be defined" id="caf429a5-09b3-d1dc-2fee-f413baf482ef">
+      <Execution id="8a2a6558-6f16-b9b4-b71f-924d50223d46"/>
+      <TestMethod codeBase="When creating a transient from a function with transient dependencies.Chrome 67.0.3396 (Windows 10 0.0.0)_it should be defined" name="Chrome 67.0.3396 (Windows 10 0.0.0)_it should be defined" className="When creating a transient from a function with transient dependencies"/>
+    </UnitTest>
+    <UnitTest name="Chrome 67.0.3396 (Windows 10 0.0.0)_the dependency should be defined" id="17d895e3-fafb-b5e7-e285-a53c63f80206">
+      <Execution id="8c0c676c-e917-349b-766e-4b57f5a64bb6"/>
+      <TestMethod codeBase="When creating a transient from a function with transient dependencies.Chrome 67.0.3396 (Windows 10 0.0.0)_the dependency should be defined" name="Chrome 67.0.3396 (Windows 10 0.0.0)_the dependency should be defined" className="When creating a transient from a function with transient dependencies"/>
+    </UnitTest>
+    <UnitTest name="Chrome 67.0.3396 (Windows 10 0.0.0)_second created instance should be same as first" id="26e46841-e673-d2c0-73bb-73713d5eefed">
+      <Execution id="0318c155-3360-5479-6352-c3058ea5cf53"/>
+      <TestMethod codeBase="When creating a singleton from an instance.Chrome 67.0.3396 (Windows 10 0.0.0)_second created instance should be same as first" name="Chrome 67.0.3396 (Windows 10 0.0.0)_second created instance should be same as first" className="When creating a singleton from an instance"/>
+    </UnitTest>
+    <UnitTest name="Chrome 67.0.3396 (Windows 10 0.0.0)_it should be the same as the instance" id="686dec4a-f439-88dc-a731-abc6a9a0c4b5">
+      <Execution id="1566596f-902a-2bdd-f1ba-665946c073aa"/>
+      <TestMethod codeBase="When creating a singleton from an instance.Chrome 67.0.3396 (Windows 10 0.0.0)_it should be the same as the instance" name="Chrome 67.0.3396 (Windows 10 0.0.0)_it should be the same as the instance" className="When creating a singleton from an instance"/>
+    </UnitTest>
+    <UnitTest name="Chrome 67.0.3396 (Windows 10 0.0.0)_services in second unrelated derived scope are the same" id="780d3422-2dd7-4800-7c8b-643c39f55b19">
+      <Execution id="18f34a29-83d2-d1b5-f276-3d38cc556ab5"/>
+      <TestMethod codeBase="When creating scopes on containers.Chrome 67.0.3396 (Windows 10 0.0.0)_services in second unrelated derived scope are the same" name="Chrome 67.0.3396 (Windows 10 0.0.0)_services in second unrelated derived scope are the same" className="When creating scopes on containers"/>
+    </UnitTest>
+    <UnitTest name="Chrome 67.0.3396 (Windows 10 0.0.0)_services in first unrelated derived scope are the same" id="6a663c2b-87ff-b573-7837-ea3be88db59d">
+      <Execution id="858fbd3e-04b1-2775-73ad-874ef6c50a26"/>
+      <TestMethod codeBase="When creating scopes on containers.Chrome 67.0.3396 (Windows 10 0.0.0)_services in first unrelated derived scope are the same" name="Chrome 67.0.3396 (Windows 10 0.0.0)_services in first unrelated derived scope are the same" className="When creating scopes on containers"/>
+    </UnitTest>
+    <UnitTest name="Chrome 67.0.3396 (Windows 10 0.0.0)_services in different scopes are different" id="6796c944-7cb3-dbf3-fedf-b11477d54030">
+      <Execution id="1b7c6b7f-28ff-1c30-33b2-a2a13b5dc92c"/>
+      <TestMethod codeBase="When creating scopes on containers.Chrome 67.0.3396 (Windows 10 0.0.0)_services in different scopes are different" name="Chrome 67.0.3396 (Windows 10 0.0.0)_services in different scopes are different" className="When creating scopes on containers"/>
+    </UnitTest>
+    <UnitTest name="Chrome 67.0.3396 (Windows 10 0.0.0)_services in each scope are the same" id="740c50df-e940-f6cc-b72e-70f2dc7b7546">
+      <Execution id="afc2dd97-cf0d-d7f7-1683-5b4b45d504e5"/>
+      <TestMethod codeBase="When creating scopes on containers.Chrome 67.0.3396 (Windows 10 0.0.0)_services in each scope are the same" name="Chrome 67.0.3396 (Windows 10 0.0.0)_services in each scope are the same" className="When creating scopes on containers"/>
+    </UnitTest>
+    <UnitTest name="Chrome 67.0.3396 (Windows 10 0.0.0)_all services are resolved" id="3ef79da7-ed8d-3592-4560-c1c5dff5cf5c">
+      <Execution id="1e6eb083-5b2b-7027-ab08-04375cb1a14e"/>
+      <TestMethod codeBase="When creating scopes on containers.Chrome 67.0.3396 (Windows 10 0.0.0)_all services are resolved" name="Chrome 67.0.3396 (Windows 10 0.0.0)_all services are resolved" className="When creating scopes on containers"/>
+    </UnitTest>
+    <UnitTest name="Chrome 67.0.3396 (Windows 10 0.0.0)_the dependency should be the same instance as resolved from the container" id="07b39c7d-950d-1242-80aa-b2b97c4b6aec">
+      <Execution id="daeb08b9-76f6-9b4f-3121-ad48cf48a734"/>
+      <TestMethod codeBase="When creating a singleton from a function with singleton dependency.Chrome 67.0.3396 (Windows 10 0.0.0)_the dependency should be the same instance as resolved from the container" name="Chrome 67.0.3396 (Windows 10 0.0.0)_the dependency should be the same instance as resolved from the container" className="When creating a singleton from a function with singleton dependency"/>
+    </UnitTest>
+    <UnitTest name="Chrome 67.0.3396 (Windows 10 0.0.0)_the dependency of the second resolution should be the same instance as resolved from the container" id="854cbf80-0506-747a-04a7-f51f3d106750">
+      <Execution id="2845b165-a5da-511b-e82b-22688dc93ccd"/>
+      <TestMethod codeBase="When creating a singleton from a function with singleton dependency.Chrome 67.0.3396 (Windows 10 0.0.0)_the dependency of the second resolution should be the same instance as resolved from the container" name="Chrome 67.0.3396 (Windows 10 0.0.0)_the dependency of the second resolution should be the same instance as resolved from the container" className="When creating a singleton from a function with singleton dependency"/>
+    </UnitTest>
+    <UnitTest name="Chrome 67.0.3396 (Windows 10 0.0.0)_the dependency should be defined" id="2d54a119-f234-d4bd-bd0d-e42ab761777d">
+      <Execution id="a7fb741d-aa8e-62af-0217-fe0317bef0b0"/>
+      <TestMethod codeBase="When creating a singleton from a function with singleton dependency.Chrome 67.0.3396 (Windows 10 0.0.0)_the dependency should be defined" name="Chrome 67.0.3396 (Windows 10 0.0.0)_the dependency should be defined" className="When creating a singleton from a function with singleton dependency"/>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda"/>
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="728a62da-a140-4526-5629-0dbd428cfd85" executionId="a47ae424-d453-9f2a-c76e-67e5a555f7ca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="202c8397-9bb1-8f58-77f1-431cb12e8aff" executionId="e7660a53-c689-f490-5474-4b9d861b3dd3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="14814c2f-06bb-876c-b4e9-6d80620816ba" executionId="9ace94df-4cef-3874-1a93-d5c7d6b46d41" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="bdd66cd4-6546-aff3-a589-a4897a937d84" executionId="153e06ec-3c04-d8ae-e4b0-78d0eb34a143" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="c35e6cd4-6f94-5905-f5e4-1ae499d2e039" executionId="6ad93215-048d-d41d-4355-ebd3d01c5499" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="c072355d-0d2c-8d06-fa12-15c532608f07" executionId="9289115e-de6e-e6f0-20b9-982220767541" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="23ff4d5e-82de-ccf1-053c-292105f4604a" executionId="a6588ee0-8958-bfcd-9699-eb27cb5c5d6d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="200ed381-81bc-7f5a-69e8-19a43d92268b" executionId="cb26faac-1366-67b4-fcc0-138e64209fd9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="e380d47e-191f-889d-46bb-f2b156c60917" executionId="7b4bdef5-0461-39fd-1134-9d8c8fbc7aba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="c6c12acc-1261-0749-0c6b-0d57d2485f2d" executionId="8fae621e-9958-0db8-f197-3ac70866ba23" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="7ef1db78-415e-1435-d574-23aa944dee4c" executionId="11cd0b8a-2b2f-a87b-042d-59762d2e78e8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="1fe56101-1686-4429-05c5-3fa5221beda8" executionId="88718b19-715e-537f-30e9-7f6285b337f8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="ef4621b9-3f42-df36-2bf3-edf2b2d471b8" executionId="bfa542e4-9803-dbe0-aaed-0b631e224ca0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="418c3636-f200-c484-8595-bc848e5cbb99" executionId="5e129191-1902-1572-b0e6-0493bb785c6c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="0926a897-064c-ff4e-0dff-f3d10b819cb2" executionId="9980359e-ac71-ce3e-0415-c69d402c759a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="ab064556-27ab-7a91-dfd4-cb5cd867d699" executionId="bb0e2672-eebc-d1fe-1ad0-ddf2a8afdd27" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="a890f3e1-f06d-c094-bea2-b1b1f34fda78" executionId="81e29a92-ab0c-601a-702f-1de12bcb1ae0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="667bcc82-59e9-c221-208f-40fa013c5228" executionId="d4f5484a-65bf-aa08-9bfa-248df2ecdf4a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="362a2c41-45ca-fc6f-a540-f79c3c1b72c7" executionId="0ab2b593-2432-c13b-b7f9-7d739e79d3b8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="c2a3b46f-160f-4d6b-7070-984cfd75a4ea" executionId="a0f876bd-fe4a-eb1a-7de3-33dcb815c755" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="caf429a5-09b3-d1dc-2fee-f413baf482ef" executionId="8a2a6558-6f16-b9b4-b71f-924d50223d46" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="17d895e3-fafb-b5e7-e285-a53c63f80206" executionId="8c0c676c-e917-349b-766e-4b57f5a64bb6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="26e46841-e673-d2c0-73bb-73713d5eefed" executionId="0318c155-3360-5479-6352-c3058ea5cf53" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="686dec4a-f439-88dc-a731-abc6a9a0c4b5" executionId="1566596f-902a-2bdd-f1ba-665946c073aa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="780d3422-2dd7-4800-7c8b-643c39f55b19" executionId="18f34a29-83d2-d1b5-f276-3d38cc556ab5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="6a663c2b-87ff-b573-7837-ea3be88db59d" executionId="858fbd3e-04b1-2775-73ad-874ef6c50a26" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="6796c944-7cb3-dbf3-fedf-b11477d54030" executionId="1b7c6b7f-28ff-1c30-33b2-a2a13b5dc92c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="740c50df-e940-f6cc-b72e-70f2dc7b7546" executionId="afc2dd97-cf0d-d7f7-1683-5b4b45d504e5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="3ef79da7-ed8d-3592-4560-c1c5dff5cf5c" executionId="1e6eb083-5b2b-7027-ab08-04375cb1a14e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="07b39c7d-950d-1242-80aa-b2b97c4b6aec" executionId="daeb08b9-76f6-9b4f-3121-ad48cf48a734" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="854cbf80-0506-747a-04a7-f51f3d106750" executionId="2845b165-a5da-511b-e82b-22688dc93ccd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestEntry testId="2d54a119-f234-d4bd-bd0d-e42ab761777d" executionId="a7fb741d-aa8e-62af-0217-fe0317bef0b0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a47ae424-d453-9f2a-c76e-67e5a555f7ca" testId="728a62da-a140-4526-5629-0dbd428cfd85" testName="Chrome 67.0.3396 (Windows 10 0.0.0)_services before reset are equal" computerName="Jochen-PC" duration="00:00:00.001" startTime="2018-06-18T19:59:01" endTime="2018-06-18T19:59:01" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="e7660a53-c689-f490-5474-4b9d861b3dd3" testId="202c8397-9bb1-8f58-77f1-431cb12e8aff" testName="Chrome 67.0.3396 (Windows 10 0.0.0)_services after reset are equal" computerName="Jochen-PC" duration="00:00:00.000" startTime="2018-06-18T19:59:01" endTime="2018-06-18T19:59:01" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="9ace94df-4cef-3874-1a93-d5c7d6b46d41" testId="14814c2f-06bb-876c-b4e9-6d80620816ba" testName="Chrome 67.0.3396 (Windows 10 0.0.0)_services before reset are not the same as after reset" computerName="Jochen-PC" duration="00:00:00.000" startTime="2018-06-18T19:59:01" endTime="2018-06-18T19:59:01" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="153e06ec-3c04-d8ae-e4b0-78d0eb34a143" testId="bdd66cd4-6546-aff3-a589-a4897a937d84" testName="Chrome 67.0.3396 (Windows 10 0.0.0)_all services are resolved" computerName="Jochen-PC" duration="00:00:00.000" startTime="2018-06-18T19:59:01" endTime="2018-06-18T19:59:01" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="6ad93215-048d-d41d-4355-ebd3d01c5499" testId="c35e6cd4-6f94-5905-f5e4-1ae499d2e039" testName="Chrome 67.0.3396 (Windows 10 0.0.0)_it should be defined" computerName="Jochen-PC" duration="00:00:00.000" startTime="2018-06-18T19:59:01" endTime="2018-06-18T19:59:01" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="9289115e-de6e-e6f0-20b9-982220767541" testId="c072355d-0d2c-8d06-fa12-15c532608f07" testName="Chrome 67.0.3396 (Windows 10 0.0.0)_second created instance should be same as first" computerName="Jochen-PC" duration="00:00:00.001" startTime="2018-06-18T19:59:01" endTime="2018-06-18T19:59:01" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="a6588ee0-8958-bfcd-9699-eb27cb5c5d6d" testId="23ff4d5e-82de-ccf1-053c-292105f4604a" testName="Chrome 67.0.3396 (Windows 10 0.0.0)_all services are available on finished container" computerName="Jochen-PC" duration="00:00:00.000" startTime="2018-06-18T19:59:01" endTime="2018-06-18T19:59:01" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="cb26faac-1366-67b4-fcc0-138e64209fd9" testId="200ed381-81bc-7f5a-69e8-19a43d92268b" testName="Chrome 67.0.3396 (Windows 10 0.0.0)_dependencies are resolved accross container borders" computerName="Jochen-PC" duration="00:00:00.001" startTime="2018-06-18T19:59:01" endTime="2018-06-18T19:59:01" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="7b4bdef5-0461-39fd-1134-9d8c8fbc7aba" testId="e380d47e-191f-889d-46bb-f2b156c60917" testName="Chrome 67.0.3396 (Windows 10 0.0.0)_single instances are the same" computerName="Jochen-PC" duration="00:00:00.001" startTime="2018-06-18T19:59:01" endTime="2018-06-18T19:59:01" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="8fae621e-9958-0db8-f197-3ac70866ba23" testId="c6c12acc-1261-0749-0c6b-0d57d2485f2d" testName="Chrome 67.0.3396 (Windows 10 0.0.0)_all services are resolved" computerName="Jochen-PC" duration="00:00:00.000" startTime="2018-06-18T19:59:01" endTime="2018-06-18T19:59:01" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="11cd0b8a-2b2f-a87b-042d-59762d2e78e8" testId="7ef1db78-415e-1435-d574-23aa944dee4c" testName="Chrome 67.0.3396 (Windows 10 0.0.0)_it should be defined" computerName="Jochen-PC" duration="00:00:00.000" startTime="2018-06-18T19:59:01" endTime="2018-06-18T19:59:01" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="88718b19-715e-537f-30e9-7f6285b337f8" testId="1fe56101-1686-4429-05c5-3fa5221beda8" testName="Chrome 67.0.3396 (Windows 10 0.0.0)_the second resolution dependency should be the same as the first dependency" computerName="Jochen-PC" duration="00:00:00.000" startTime="2018-06-18T19:59:01" endTime="2018-06-18T19:59:01" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="bfa542e4-9803-dbe0-aaed-0b631e224ca0" testId="ef4621b9-3f42-df36-2bf3-edf2b2d471b8" testName="Chrome 67.0.3396 (Windows 10 0.0.0)_the dependency should be defined" computerName="Jochen-PC" duration="00:00:00.000" startTime="2018-06-18T19:59:01" endTime="2018-06-18T19:59:01" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="5e129191-1902-1572-b0e6-0493bb785c6c" testId="418c3636-f200-c484-8595-bc848e5cbb99" testName="Chrome 67.0.3396 (Windows 10 0.0.0)_services before reset are not the same as after reset" computerName="Jochen-PC" duration="00:00:00.000" startTime="2018-06-18T19:59:01" endTime="2018-06-18T19:59:01" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="9980359e-ac71-ce3e-0415-c69d402c759a" testId="0926a897-064c-ff4e-0dff-f3d10b819cb2" testName="Chrome 67.0.3396 (Windows 10 0.0.0)_all services are resolved" computerName="Jochen-PC" duration="00:00:00.003" startTime="2018-06-18T19:59:01" endTime="2018-06-18T19:59:01" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="bb0e2672-eebc-d1fe-1ad0-ddf2a8afdd27" testId="ab064556-27ab-7a91-dfd4-cb5cd867d699" testName="Chrome 67.0.3396 (Windows 10 0.0.0)_services before reset are equal" computerName="Jochen-PC" duration="00:00:00.000" startTime="2018-06-18T19:59:01" endTime="2018-06-18T19:59:01" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="81e29a92-ab0c-601a-702f-1de12bcb1ae0" testId="a890f3e1-f06d-c094-bea2-b1b1f34fda78" testName="Chrome 67.0.3396 (Windows 10 0.0.0)_services after reset are equal" computerName="Jochen-PC" duration="00:00:00.000" startTime="2018-06-18T19:59:01" endTime="2018-06-18T19:59:01" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="d4f5484a-65bf-aa08-9bfa-248df2ecdf4a" testId="667bcc82-59e9-c221-208f-40fa013c5228" testName="Chrome 67.0.3396 (Windows 10 0.0.0)_it should be defined" computerName="Jochen-PC" duration="00:00:00.000" startTime="2018-06-18T19:59:01" endTime="2018-06-18T19:59:01" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="0ab2b593-2432-c13b-b7f9-7d739e79d3b8" testId="362a2c41-45ca-fc6f-a540-f79c3c1b72c7" testName="Chrome 67.0.3396 (Windows 10 0.0.0)_the second resolution should be different from the first" computerName="Jochen-PC" duration="00:00:00.000" startTime="2018-06-18T19:59:01" endTime="2018-06-18T19:59:01" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="a0f876bd-fe4a-eb1a-7de3-33dcb815c755" testId="c2a3b46f-160f-4d6b-7070-984cfd75a4ea" testName="Chrome 67.0.3396 (Windows 10 0.0.0)_the second resolution dependency should be different from the first" computerName="Jochen-PC" duration="00:00:00.000" startTime="2018-06-18T19:59:01" endTime="2018-06-18T19:59:01" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="8a2a6558-6f16-b9b4-b71f-924d50223d46" testId="caf429a5-09b3-d1dc-2fee-f413baf482ef" testName="Chrome 67.0.3396 (Windows 10 0.0.0)_it should be defined" computerName="Jochen-PC" duration="00:00:00.000" startTime="2018-06-18T19:59:01" endTime="2018-06-18T19:59:01" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="8c0c676c-e917-349b-766e-4b57f5a64bb6" testId="17d895e3-fafb-b5e7-e285-a53c63f80206" testName="Chrome 67.0.3396 (Windows 10 0.0.0)_the dependency should be defined" computerName="Jochen-PC" duration="00:00:00.000" startTime="2018-06-18T19:59:01" endTime="2018-06-18T19:59:01" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="0318c155-3360-5479-6352-c3058ea5cf53" testId="26e46841-e673-d2c0-73bb-73713d5eefed" testName="Chrome 67.0.3396 (Windows 10 0.0.0)_second created instance should be same as first" computerName="Jochen-PC" duration="00:00:00.000" startTime="2018-06-18T19:59:01" endTime="2018-06-18T19:59:01" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="1566596f-902a-2bdd-f1ba-665946c073aa" testId="686dec4a-f439-88dc-a731-abc6a9a0c4b5" testName="Chrome 67.0.3396 (Windows 10 0.0.0)_it should be the same as the instance" computerName="Jochen-PC" duration="00:00:00.000" startTime="2018-06-18T19:59:01" endTime="2018-06-18T19:59:01" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="18f34a29-83d2-d1b5-f276-3d38cc556ab5" testId="780d3422-2dd7-4800-7c8b-643c39f55b19" testName="Chrome 67.0.3396 (Windows 10 0.0.0)_services in second unrelated derived scope are the same" computerName="Jochen-PC" duration="00:00:00.000" startTime="2018-06-18T19:59:02" endTime="2018-06-18T19:59:02" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="858fbd3e-04b1-2775-73ad-874ef6c50a26" testId="6a663c2b-87ff-b573-7837-ea3be88db59d" testName="Chrome 67.0.3396 (Windows 10 0.0.0)_services in first unrelated derived scope are the same" computerName="Jochen-PC" duration="00:00:00.000" startTime="2018-06-18T19:59:02" endTime="2018-06-18T19:59:02" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="1b7c6b7f-28ff-1c30-33b2-a2a13b5dc92c" testId="6796c944-7cb3-dbf3-fedf-b11477d54030" testName="Chrome 67.0.3396 (Windows 10 0.0.0)_services in different scopes are different" computerName="Jochen-PC" duration="00:00:00.001" startTime="2018-06-18T19:59:02" endTime="2018-06-18T19:59:02" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="afc2dd97-cf0d-d7f7-1683-5b4b45d504e5" testId="740c50df-e940-f6cc-b72e-70f2dc7b7546" testName="Chrome 67.0.3396 (Windows 10 0.0.0)_services in each scope are the same" computerName="Jochen-PC" duration="00:00:00.000" startTime="2018-06-18T19:59:02" endTime="2018-06-18T19:59:02" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="1e6eb083-5b2b-7027-ab08-04375cb1a14e" testId="3ef79da7-ed8d-3592-4560-c1c5dff5cf5c" testName="Chrome 67.0.3396 (Windows 10 0.0.0)_all services are resolved" computerName="Jochen-PC" duration="00:00:00.001" startTime="2018-06-18T19:59:02" endTime="2018-06-18T19:59:02" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="daeb08b9-76f6-9b4f-3121-ad48cf48a734" testId="07b39c7d-950d-1242-80aa-b2b97c4b6aec" testName="Chrome 67.0.3396 (Windows 10 0.0.0)_the dependency should be the same instance as resolved from the container" computerName="Jochen-PC" duration="00:00:00.003" startTime="2018-06-18T19:59:02" endTime="2018-06-18T19:59:02" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="2845b165-a5da-511b-e82b-22688dc93ccd" testId="854cbf80-0506-747a-04a7-f51f3d106750" testName="Chrome 67.0.3396 (Windows 10 0.0.0)_the dependency of the second resolution should be the same instance as resolved from the container" computerName="Jochen-PC" duration="00:00:00.000" startTime="2018-06-18T19:59:02" endTime="2018-06-18T19:59:02" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <UnitTestResult executionId="a7fb741d-aa8e-62af-0217-fe0317bef0b0" testId="2d54a119-f234-d4bd-bd0d-e42ab761777d" testName="Chrome 67.0.3396 (Windows 10 0.0.0)_the dependency should be defined" computerName="Jochen-PC" duration="00:00:00.000" startTime="2018-06-18T19:59:02" endTime="2018-06-18T19:59:02" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+  </Results>
+</TestRun>

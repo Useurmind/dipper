@@ -55,9 +55,9 @@ export class ContainerBuilder2<TCurrentContainer> {
      * Finish and return the container that is currently created.
      * @returns The finished container.
      */
-    public create(): IScopeProvider<TCurrentContainer> {
+    public create(): IScopeProvider<TCurrentContainer> & TCurrentContainer {
         let container = new ContainerSpecContainerFactory(this.containerSpecs).create();
 
-        return <IScopeProvider<TCurrentContainer>><any>container;
+        return <IScopeProvider<TCurrentContainer> & TCurrentContainer><any>container;
     }
 }

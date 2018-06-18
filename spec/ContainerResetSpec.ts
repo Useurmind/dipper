@@ -12,7 +12,7 @@ describe("When resetting a container", () => {
 
         let container = builder.addIndependent<IMyContainer>(c => ({
                 store: c.single<IMyStore1>(() => ({ }))
-            }))
+            })) 
         .create();
 
         var store = container.store();

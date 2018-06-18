@@ -7,6 +7,11 @@
             "label": "jasmine watch",
             "type": "shell",
             "command": "nodemon --exec jasmine"
+        },
+        {
+            "label": "jasmine",
+            "type": "shell",
+            "command": "jasmine"
         }
     ]
 }
