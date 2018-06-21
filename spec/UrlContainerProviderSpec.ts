@@ -1,6 +1,6 @@
 import * as dipper from "../src";
 import { IProvideResolve, ResolvingContainer, ScopedContainer, ContainerBuilder2 } from "../src";
-import { IContainer } from "../dist/src/IContainer";
+import { IContainer } from "../src/IContainer";
 
 interface IMyStore1 {
 }
