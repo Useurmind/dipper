@@ -1,4 +1,7 @@
-import { IContainer } from "./IContainer";
+import { IContainer, IScopeProvider } from "./IContainer";
+import { IReset } from "./IReset";
+import { ResolvingContainer } from "./ResolvingContainer";
+import { ScopedContainer } from "./ScopedContainer";
 
 /**
  * The currrently active container provider instance.
@@ -11,11 +14,16 @@ let currentInstance: IContainerProvider = null;
  * the correct container for the current context.
  * It decides how to create new lifetime scopes for the container.
  */
-export interface IContainerProvider {
+export interface IContainerProvider extends IReset {
     /**
      * Get the container for the current context.
      */
-    getContainer(): IContainer;
+    getContainer<TContainer>(): ScopedContainer<TContainer>;
+
+    /**
+     * Take care of correctly resetting all container scopes.
+     */
+    reset(): void;
 }
 
 /**
@@ -25,12 +33,19 @@ export class ContainerInstanceProvider implements IContainerProvider {
     constructor(private container: IContainer) {
 
     }
-
+    
     /**
      * Get the container for the current context.
      */
-    getContainer(): IContainer {
-        return this.container;
+    getContainer<TContainer>(): ScopedContainer<TContainer> {
+        return this.container as any as ScopedContainer<TContainer>;
+    }
+
+    /**
+     * Take care of correctly resetting all container scopes.
+     */
+    reset(): void {
+        this.container.reset();
     }
 }
 

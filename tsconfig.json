@@ -3,9 +3,9 @@
         "module": "amd",
         "moduleResolution": "node",
         "watch": false,  // for development specify -w on command line
-        "noImplicitAny": true,
+        "noImplicitAny": false,
         "noImplicitReturns": true,
-        "noImplicitThis": true,
+        "noImplicitThis": false,
         "sourceMap": true,
         "target": "es5",
         "importHelpers": false,

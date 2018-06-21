@@ -10,5 +10,7 @@ export * from "./IProvideResolve";
 export * from "./IReset";
 export * from "./IResolve";
 export * from "./ResolvingContainer";
+export * from "./ScopedContainer";
 export * from "./Singleton";
 export * from "./Transient";
+export * from "./UrlContainerProvider";

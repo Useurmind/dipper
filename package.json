@@ -1,6 +1,6 @@
 {
   "name": "dipperts",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Dependency injection library for typescript.",
   "homepage": "https://github.com/Useurmind/dipper",
   "repository": {
