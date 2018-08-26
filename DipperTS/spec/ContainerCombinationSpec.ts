@@ -18,7 +18,8 @@ interface IMyContainer {
     store: IMyStore1;
 }
 
-type MyContainerType =  ResolvingContainer<IMyContainer> &
+type MyContainerType =  IContainer &
+                        ResolvingContainer<IMyContainer> &
                         ResolvingContainer<ILoggerContainer> &
                         IScopeProvider<IContainer & ResolvingContainer<ILoggerContainer>>;
 

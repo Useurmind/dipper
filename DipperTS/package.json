@@ -8,7 +8,7 @@
     "url": "https://github.com/Useurmind/dipper.git"
   },
   "main": "dist/src/index.js",
-  "type": "dist/src/index.d.ts",
+  "types": "dist/src/index.d.ts",
   "scripts": {
     "build": "./node_modules/.bin/tsc --outDir ./dist",
     "test": "./node_modules/.bin/karma start",

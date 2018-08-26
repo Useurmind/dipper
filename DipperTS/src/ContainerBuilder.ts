@@ -8,7 +8,7 @@ import { ContainerSpecContainerFactory } from "./ContainerFactory";
 /** 
  * This class is used to create a container.
 */
-export class ContainerBuilder<TContainerTarget> {
+export class ContainerBuilder {
     /**
      * This method is used to add the given interface to a container.
      * @param defineContainer A function that defines the registrations in this specific container interface using the context handed to it.
